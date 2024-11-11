@@ -1,3 +1,2 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+export { Table } from './components/Table';
+export type { Column, TableProps } from './utils/types';
