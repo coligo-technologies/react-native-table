@@ -1,6 +1,6 @@
 {
   "name": "@coligo/react-native-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight package for creating flexible tables in React Native.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
