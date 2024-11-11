@@ -10,7 +10,7 @@ export function sortData<T>(
     const bValue = b[key];
 
     if (typeof aValue === 'string' && typeof bValue === 'string') {
-      return direction === 'desc'
+      return direction === 'asc'
         ? aValue.localeCompare(bValue)
         : bValue.localeCompare(aValue);
     } else if (typeof aValue === 'number' && typeof bValue === 'number') {
