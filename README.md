@@ -69,6 +69,7 @@ Each column is defined by the following properties:
 | ---------- | --------------------------------------------- | ------------------------------------------------------ |
 | `label`    | `string`                                      | Column header label.                                   |
 | `key`      | `keyof T`                                     | Key in the data object to display.                     |
+| `id`       | `string`                                      | Optional id that is used as key for duplicate key use. |
 | `width`    | `number`                                      | Optional fixed width for the column.                   |
 | `flex`     | `number`                                      | Optional flex value to proportionally size the column. |
 | `sortable` | `boolean`                                     | Whether the column is sortable.                        |
