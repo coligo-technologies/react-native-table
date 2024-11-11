@@ -4,6 +4,7 @@ import type { ColorValue, StyleProp, ViewStyle } from 'react-native';
 export type Column<T> = {
   label: string;
   key: keyof T;
+  id?: string;
   width?: number;
   flex?: number;
   sortable?: boolean;
